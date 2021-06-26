@@ -1,0 +1,28 @@
+.header{
+    background-color: #222;
+    height:36px;
+    padding: 8px 0;
+    padding-left: 16px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 35px;
+    background-color: #ff7f7f;
+    animation: rotating 8s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotating {
+    0% {
+      transform: rotate(0deg);
+    }
+    93% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(540deg);
+    }
+}
