@@ -1,0 +1,37 @@
+.back__btn{
+    margin-left: 24px !important;
+    margin-top:8px !important;
+    margin-bottom:0 !important;
+    height: 24px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.back__btn:hover{
+    background-color: transparent !important;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.left{
+    flex:0 0 auto;
+    width:20%;
+}
+
+.middle{
+    flex:0 0 auto;
+    width:60%;
+}
+
+.gridList{
+    width: 100%;
+    height: auto;
+}
+
+.icon{
+    color: rgba(255, 255, 255, 0.54);
+}

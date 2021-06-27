@@ -37,7 +37,7 @@ export default function MoviGrid(props) {
             return (
               
                   <GridListTile key={item.id}>
-                    <Link to="/">
+                    <Link to={`/${item.id}`}>
                     <img src={item.poster_url} alt={item.title} style={{width:"100%"}} />
                     <GridListTileBar
                       title={item.title}
