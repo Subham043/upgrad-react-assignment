@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:16px;
+    justify-content: space-evenly;
+}
+
+.movies__div{
+    flex: 0 0 auto;
+    width:76%;
+}
+
+.filter__div{
+    flex: 0 0 auto;
+    width:24%;
+}
