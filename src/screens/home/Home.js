@@ -167,6 +167,7 @@ const Home = ( props ) => {
             <h2 className="heading">Upcoming Movies</h2>
             <Grid moviesData={movies} />
             <Container moviesData={rmovies} genresList={genre} artistList={artist} filterHandlerData={filterHandler} />
+            
         </div>
     )
 }

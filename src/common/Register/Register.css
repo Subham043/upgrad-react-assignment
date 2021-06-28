@@ -1,0 +1,9 @@
+.form-control{
+    display: block !important;
+    margin:20px !important;
+
+}
+
+.MuiDialogContent-root-206:first-child{padding: 0 !important;}
+
+.MuiDialog-paperScrollPaper-35{width: 365px !important;}
