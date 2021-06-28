@@ -6,7 +6,6 @@ import FormModal from '../FormModal/FormModal'
 import {Context} from "../../store"
 
 const Header = (props) => {
-    console.log(props)
     const [modal, setModal] = useState(false)
 
     const handleModalClose = () => {

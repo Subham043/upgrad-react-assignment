@@ -59,31 +59,11 @@ export default function SimpleCard(props) {
     const [personName, setPersonName] = useState([]);
     const [artistName, setArtistName] = useState([]);
     const [movieName, setMovieName] = useState("");
-    const [dateStart, setDateStart] = useState(null);
-    const [dateEnd, setDateEnd] = useState(null);
+    const [dateStart, setDateStart] = useState("");
+    const [dateEnd, setDateEnd] = useState("");
     const [errorDisp, setErrorDisp] = useState(false);
 
-    const handleChangeMultiple = (event) => {
-        const { options } = event.target;
-        const value = [];
-        for (let i = 0, l = options.length; i < l; i += 1) {
-            if (options[i].selected) {
-                value.push(options[i].value);
-            }
-        }
-        setPersonName(value);
-    };
-
-    const handleChangeMultipleArtist = (event) => {
-        const { options } = event.target;
-        const value = [];
-        for (let i = 0, l = options.length; i < l; i += 1) {
-            if (options[i].selected) {
-                value.push(options[i].value);
-            }
-        }
-        setArtistName(value);
-    };
+   
 
     const handleChangeArtist = (event) => {
         setArtistName(event.target.value);
@@ -147,7 +127,7 @@ export default function SimpleCard(props) {
                     <FormControl className={classes.formControl}>
                         <InputLabel id="demo-mutiple-checkbox-label">Genres</InputLabel>
                         <Select
-                            labelId="demo-mutiple-checkbox-label"
+                            labelid="demo-mutiple-checkbox-label"
                             id="demo-mutiple-checkbox"
                             multiple
                             value={personName}
@@ -170,7 +150,7 @@ export default function SimpleCard(props) {
                     <FormControl className={classes.formControl}>
                         <InputLabel id="demo-mutiple-checkbox-artist">Artist</InputLabel>
                         <Select
-                            labelId="demo-mutiple-checkbox-artist"
+                            labelid="demo-mutiple-checkbox-artist"
                             id="artist-mutiple-checkbox"
                             multiple
                             value={artistName}

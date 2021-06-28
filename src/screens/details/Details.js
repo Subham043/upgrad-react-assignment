@@ -3,7 +3,7 @@ import axios from "axios"
 import Button from '@material-ui/core/Button';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import "./Details.css"
-import { Link, useRouteMatch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Typography from '@material-ui/core/Typography';
 import ReactPlayer from "react-player";
 import StarBorderIcon from '@material-ui/icons/StarBorder';
